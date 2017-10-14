@@ -3,17 +3,92 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="fill_parent"
     android:layout_width="fill_parent">
-    <EditText
-        android:id="@+id/EditText01"
-        android:hint="Enter some text..."
-        android:layout_alignParentLeft="true"
-        android:layout_width="fill_parent"
-        android:layout_toLeftOf="@+id/Button01"
-        android:layout_height="wrap_content"></EditText>
-    <Button
-        android:id="@+id/Button01"
-        android:text="Press Here!"
+    <TextView
+        android:text="RED"
+        android:id="@+id/TextView01"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#f00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:padding="25dp">
+    </TextView>
+
+        <TextView
+            android:text="ORANGE"
+            android:layout_height="wrap_content"
+            android:background="#ffa500"
+            android:gravity="center"
+            android:textColor="#000"
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="25dp"></TextView>
+    <TextView
+        android:text="YELLOW"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView03"
         android:layout_width="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_height="wrap_content"></Button>
+        android:padding="25dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:background="#0f0"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView04"
+        android:layout_toLeftOf="@+id/TextView05"
+        android:padding="25dp"
+        android:layout_centerVertical="true"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:background="#00f"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/TextView05"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:padding="25dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDIGO"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/TextView06"
+        android:layout_toRightOf="@+id/TextView05"
+        android:background="#4b0082"
+        android:padding="25dp"
+        android:layout_centerVertical="true"></TextView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="VIOLET"
+        android:background="#ee82ee"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/TextView07"
+        android:layout_alignParentBottom="true"
+        android:padding="25dp">
+    </TextView>
+
+
+
+
+
+
+
+
+
+
 </RelativeLayout>
